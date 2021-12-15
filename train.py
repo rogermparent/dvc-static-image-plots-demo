@@ -43,7 +43,7 @@ def get_model():
     model.add(Activation('softmax'))
 
     model.compile(loss='categorical_crossentropy',
-    metrics=['accuracy'], optimizer='sgd')
+    metrics=['accuracy'], optimizer='adam')
     return model
 
 
