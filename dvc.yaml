@@ -1,11 +1,16 @@
 stages:
   train:
     cmd: python train.py
+    params:
+      - batch_size
+      - learning_rate
+      - num_epochs
     deps:
     - train.py
     plots:
     - plots
     live:
       dvclive:
+        cache: false
         summary: true
         html: true
