@@ -1,4 +1,6 @@
 git+https://github.com/iterative/dvc
 dvclive
 matplotlib
-tensorflow
+torch
+torchvision
+tqdm
