@@ -1,0 +1,4 @@
+git+https://github.com/iterative/dvc
+dvclive
+matplotlib
+tensorflow-macos~=2.6.0
